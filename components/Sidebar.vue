@@ -1,6 +1,7 @@
 <template>
-    <div class="flex gap-1">
-        <div class="relative w-64 bg-black h-screen text-white main-sidebar">
+    <div class="flex gap-1 sticky">
+
+        <!-- <div class="relative w-64 bg-black h-screen text-white main-sidebar">
             <div class="flex logo-section mb-16">
                 <img src="@/assets/Earth-logo.png" class="" alt="site logo" />
                 <span class="self-center site-name">Craft it</span>
@@ -33,9 +34,9 @@
                     <a href="" class="logout self-center">Logout</a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="relative w-28 -w-1.5 bg-black h-screen text-white small-sidebar">
+        <div class="fixed w-28 -w-1.5 bg-black h-screen text-white small-sidebar">
             <div class="flex justify-center logo-section mb-16">
                 <img src="@/assets/Earth-logo.png" class="" alt="site logo" />
             </div>
@@ -77,7 +78,6 @@
 
 .small-sidebar {
     padding: 2.3rem 1.5rem;
-
 }
 
 .site-name {
@@ -114,50 +114,5 @@
 
 .active .nav-link {
     font-weight: 600 !important;
-
 }
-
-.test {
-    margin-top: auto;
-
-}
-
-/* .main-sidebar .nav-item {
-  margin-top: 4rem;
-  padding: .81rem .75rem;
-  font-weight: 400;
-  color: #fff;
-  background-color: #000;
-  border-radius: none;
-} */
-
-
-
-
-
-/* .main-sidebar .active {
-  font-weight: 600;
-  color: #000;
-  padding: 14px 12px; 
-  background-color: #D9D9D9;
-  border-radius: 10px;
-}
-
-.small-sidebar .active {
-  font-weight: 600;
-  color: #000;
-padding: 14px 12px;
-  background-color: #D9D9D9;
-  border-radius: 10px;
-} */
-
-/* small sidebar */
-/* .small-sidebar {
-  margin-top: 4rem;
-  padding: .81rem .75rem;
-  font-weight: 400;
-  color: #fff;
-  background-color: rgb(17, 158, 158);
-  border-radius: none;
-} */
 </style>
